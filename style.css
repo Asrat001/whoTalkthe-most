@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    
+    
+}
+.img{
+    height: 100%;
+  
+}
+p{
+    font-style: italic;
+}
+input{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    color: azure;
+    
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: azure;
+    border-radius: 20px;
+}
+.flex{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+.footer{
+ position: absolute;
+ bottom: 10px;
+ left: 60%;
+ padding: 10px;
+}
+@media screen and (max-width: 375px){
+
+    .container{
+        flex-direction: column;
+        
+    }
+    .img{
+        display:none;
+    }
+    .footer{
+        left: 40%;
+        bottom: 100px;
+    }
+}
